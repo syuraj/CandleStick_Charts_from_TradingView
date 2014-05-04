@@ -12,6 +12,9 @@ public class ChartFragment extends Fragment {
 
     String stock;
 
+    public ChartFragment(){
+    }
+
     public ChartFragment(String stock) {
         this.stock = stock;
     }
@@ -43,7 +46,6 @@ public class ChartFragment extends Fragment {
 
         settings.setJavaScriptEnabled(true);
         settings.setDomStorageEnabled(true);
-        settings.setAllowFileAccessFromFileURLs(true);
         settings.setAllowFileAccess(true);
         settings.setAllowContentAccess(true);
 

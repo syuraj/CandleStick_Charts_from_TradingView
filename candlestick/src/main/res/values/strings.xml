@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">CandleStick Charts from TradingView</string>
+    <string name="app_name">TradingView CandleStick Charts</string>
     <string name="action_refresh">Refresh Chart</string>
 
     <string name="title_add_remove_stock">Add or Remove Stocks</string>
