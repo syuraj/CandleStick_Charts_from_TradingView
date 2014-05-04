@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CandleStick Charts from TradingView</string>
+    <string name="action_refresh">Refresh Chart</string>
+
+    <string name="title_add_remove_stock">Add or Remove Stocks</string>
+    <string name="action_setings_stock_add">Add a stock</string>
+    <string name="stock_deleted_msg">Stock %1$s deleted.</string>
+
+    <string name="empty_stocks_msg">Please, press add button to add stock symbol.</string>
+    <string name="candle_stick_chart_url">file:///android_asset/CandleStickChart.html</string>
+    <string name="title_activity_addRemoveStockActivity">Add or Remove Stocks</string>
+
+</resources>

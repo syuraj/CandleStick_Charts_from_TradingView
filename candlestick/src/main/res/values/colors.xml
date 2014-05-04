@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="actionbar_background">#9aceff</color>
+
+    <color name="translucent">#80000000</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="blue_extra_light">#c8eefc</color>  <!-- (not in handbook) -->
+    <color name="blue_light">#78c8e6</color>        <!-- "light blue" -->
+    <color name="blue_new_kid">#2EA2CC</color>      <!-- "new kid on the block blue" -->
+    <color name="blue_medium">#1e8cbe</color>       <!-- "base lighter blue" -->
+    <color name="blue_dark">#0074a2</color>         <!-- "base darker blue" -->
+    <color name="blue_extra_dark">#005684</color>   <!-- "midnight blue" -->
+    <color name="orange_medium">#f1831e</color>     <!-- "jazzy orange" -->
+    <color name="orange_dark">#d54e21</color>       <!-- "fire orange" -->
+    <color name="grey_extra_light">#eeeeee</color>  <!-- "it's everywhere grey" -->
+    <color name="grey_light">#dddddd</color>        <!-- "read grey" -->
+    <color name="grey_medium_light">#bbbbbb</color>
+    <color name="grey_medium">#999999</color>       <!-- "all T, all shade grey" -->
+    <color name="grey_medium_dark">#666666</color>  <!-- "whisper grey" -->
+    <color name="grey_dark">#333333</color>         <!-- "little eddie grey" -->
+    <color name="grey_extra_dark">#222222</color>   <!-- "big eddie grey" -->
+    <color name="semi_transparent_blue_medium">#cc1e8cbe</color>
+
+    <!-- native reader colors -->
+    <color name="reader_background">@color/grey_extra_light</color>
+    <color name="reader_divider_grey">@color/grey_extra_light</color>
+    <color name="reader_divider_blue">@color/blue_light</color>
+    <color name="reader_hyperlink">@color/blue_medium</color>
+    <color name="reader_actionbar_text">@color/grey_extra_light</color>
+    <color name="reader_message_bar_blue">@color/semi_transparent_blue_medium</color>     <!-- blue_medium with alpha -->
+    <color name="reader_message_bar_orange">#ccf1831e</color>   <!-- orange_medium with alpha -->
+    <color name="reader_list_selector">#77c8ee</color>        <!-- blue_extra_light with alpha -->
+
+</resources>

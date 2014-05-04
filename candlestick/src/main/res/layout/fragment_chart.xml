@@ -1,0 +1,12 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_chart"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="info.suvaya.onestock.app.MainActivity$PlaceholderFragment">
+
+    <WebView
+        android:id="@+id/webview_chart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></WebView>
+</RelativeLayout>

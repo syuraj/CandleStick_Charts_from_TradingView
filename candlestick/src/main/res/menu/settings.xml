@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:candlestick="http://schemas.android.com/apk/res-auto"
+    tools:context="com.siristechnology.candlestick.AddRemoveStockActivity" >
+
+    <item
+        android:id="@+id/ic_action_settings_stock_add"
+        android:title="@string/action_setings_stock_add"
+        android:icon="@drawable/ic_action_settings_stock_add"
+        android:showAsAction="always"
+        candlestick:showAsAction="always" />
+
+</menu>

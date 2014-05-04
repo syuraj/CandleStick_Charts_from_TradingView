@@ -1,0 +1,46 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+    </style>
+
+    <!-- ListViews -->
+    <style name="ReaderListView">
+        <item name="android:scrollbars">none</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:drawSelectorOnTop">true</item>
+
+    </style>
+
+    <style name="ReaderListView.PostList" parent="ReaderListView">
+        <item name="android:listSelector">@color/transparent</item>
+        <item name="android:drawSelectorOnTop">false</item>
+    </style>
+
+    <style name="ReaderListView.EmptyList" parent="ReaderListView">
+        <item name="android:textSize">@dimen/text_sz_large</item>
+    </style>
+
+    <style name="ReaderListView.PostList.Post" parent="ReaderListView.PostList">
+        <item name="android:minHeight">60dip</item>
+    </style>
+
+    <style name="StocksTextView" parent="android:Widget.TextView">
+        <item name="android:textColorLink">@color/reader_hyperlink</item>
+    </style>
+
+    <style name="StocksTextView.Post.Title" parent="StocksTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_sz_extra_large</item>
+        <item name="android:textColor">@color/grey_dark</item>
+        <item name="android:maxLines">3</item>
+    </style>
+
+    <style name="ReaderImageView" />
+
+    <style name="ReaderImageView.ButtonIcon" parent="ReaderImageView">
+        <item name="android:layout_width">@dimen/reader_button_icon_small</item>
+        <item name="android:layout_height">@dimen/reader_button_icon_small</item>
+    </style>
+</resources>
