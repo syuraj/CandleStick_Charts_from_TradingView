@@ -42,6 +42,8 @@ public class ChartFragment extends Fragment {
         WebView webView = (WebView) rootView.findViewById(R.id.webview_chart);
 
         webView.setWebViewClient(new AppWebViewClient(getActivity()));
+        webView.setLayerType(View.LAYER_TYPE_SOFTWARE, null);
+
         WebSettings settings = webView.getSettings();
 
         settings.setJavaScriptEnabled(true);

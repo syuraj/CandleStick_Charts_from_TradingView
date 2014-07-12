@@ -7,8 +7,8 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/candlestick" />
+            <option value="C:\Users\Suraj\SkyDrive\Projects\CandleStickChartsfromTradingView\V1\CandleStickChartsfromTradingView" />
+            <option value="C:\Users\Suraj\SkyDrive\Projects\CandleStickChartsfromTradingView\V1\CandleStickChartsfromTradingView\candlestick" />
           </set>
         </option>
       </GradleProjectSettings>
